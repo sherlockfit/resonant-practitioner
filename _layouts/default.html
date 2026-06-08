@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
+<meta name="description" content="{{ page.description | default: site.description }}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+<a class="skip-link" href="#content">Skip to content</a>
+<button class="nav-toggle" aria-label="Toggle navigation" onclick="document.querySelector('.sidebar').classList.toggle('open')">☰ Menu</button>
+<div class="layout">
+  <aside class="sidebar">
+    {% include nav.html %}
+  </aside>
+  <main id="content" class="content">
+    {% if page.title %}
+      <header class="page-header">
+        {% if page.eyebrow %}<div class="eyebrow">{{ page.eyebrow }}</div>{% endif %}
+        <h1>{{ page.title }}</h1>
+        {% if page.subtitle %}<p class="subtitle">{{ page.subtitle }}</p>{% endif %}
+      </header>
+    {% endif %}
+    {{ content }}
+    <footer class="page-footer">
+      <strong>The Resonant Practitioner</strong> · v1.0<br>
+      A self-directed graduate program in movement & movement healing<br>
+      maintained by <a href="https://github.com/sherlockfit">sherlockfit</a> · <a href="https://github.com/sherlockfit/resonant-practitioner">source on GitHub</a>
+    </footer>
+  </main>
+</div>
+</body>
+</html>

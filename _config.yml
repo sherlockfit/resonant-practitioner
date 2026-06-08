@@ -1,0 +1,21 @@
+title: The Resonant Practitioner
+description: A self-directed graduate program in movement and movement healing.
+author: sherlockfit
+permalink: pretty
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  toc_levels: 1..3
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+exclude:
+  - README.md
+  - pdf/build.sh
+  - pdf/README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
