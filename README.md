@@ -1,9 +1,5 @@
 # The Resonant Practitioner
 
-**A self-directed graduate program in movement, movement healing, and cultural influence.**
-
-Built on the methodological scaffolding of *The Class* by Taryn Toomey (Field Study), expanded into a full curriculum, certification design lab, and pathway to iconic public practice.
-
 ## 📖 Read the handbook
 
 Once GitHub Pages is enabled, the rendered handbook lives at:  

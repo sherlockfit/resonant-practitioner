@@ -4,8 +4,6 @@ eyebrow: "v1.0"
 subtitle: "A self-directed graduate program in movement, movement healing, and cultural influence."
 ---
 
-> Built on the methodological scaffolding of *The Class* by Taryn Toomey (Field Study), expanded into a full curriculum, certification design lab, and pathway to iconic public practice.
-
 This handbook is **a graduate-level training manual + a personal university program + an iconic-practice playbook**, all in one.
 
 ## How to use this site
@@ -19,7 +17,7 @@ This handbook is **a graduate-level training manual + a personal university prog
 
 <div class="toc-grid">
   <a class="toc-card" href="./handbook/00-orientation/"><span class="num">Module 0</span><span class="title">Orientation &amp; Mandate</span><span class="desc">Personal mandate, lineage map, measurable outcome contract.</span></a>
-  <a class="toc-card" href="./handbook/01-lineage/"><span class="num">Module 1</span><span class="title">Lineage Study</span><span class="desc">The Class and 16 cousin traditions, with comparative matrix.</span></a>
+  <a class="toc-card" href="./handbook/01-lineage/"><span class="num">Module 1</span><span class="title">Lineage Study</span><span class="desc">Movement traditions and cousin lineages, with comparative matrix.</span></a>
   <a class="toc-card" href="./handbook/02-anatomy/"><span class="num">Module 2</span><span class="title">Anatomy &amp; Biomechanics</span><span class="desc">Joints, fascia, breath, gait, common injury patterns.</span></a>
   <a class="toc-card" href="./handbook/03-nervous-system/"><span class="num">Module 3</span><span class="title">Nervous System &amp; Trauma</span><span class="desc">Interoception, polyvagal critique, trauma-informed operations.</span></a>
   <a class="toc-card" href="./handbook/04-rhythm/"><span class="num">Module 4</span><span class="title">Neuroscience of Rhythm</span><span class="desc">Entrainment, groove, predictive timing, hyperscanning.</span></a>

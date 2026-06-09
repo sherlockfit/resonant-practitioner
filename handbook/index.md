@@ -12,7 +12,7 @@ Work the modules in order on your first pass — each builds on the last. After 
 
 ## Foundations (Modules 1–3)
 
-- [Module 1 — Lineage Study: The Class & Its Cousins](./01-lineage/)
+- [Module 1 — Lineage Study: Movement Traditions](./01-lineage/)
 - [Module 2 — Functional Anatomy & Biomechanics](./02-anatomy/)
 - [Module 3 — Nervous System, Interoception & Trauma-Informed Practice](./03-nervous-system/)
 
