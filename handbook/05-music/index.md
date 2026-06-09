@@ -14,7 +14,7 @@ Track selection by taste alone produces inconsistent outcomes. Sonic design requ
 Classify tracks by energy and emotional tone.
 
 ### ISO principle
-Begin near current participant state and shift gradually toward target state.
+ISO means matching the present state first, then shifting gradually toward the target state.
 
 ### Five Channel Score
 1. Percussion

@@ -22,7 +22,7 @@ Autonomy support, competence scaffolding, and relational safety improve adherenc
 ### Transtheoretical model
 Match asks to readiness stage.
 
-### COM B
+### COM-B
 | Domain | Teaching move |
 |---|---|
 | Capability | Layered regressions and progressions |
@@ -39,7 +39,7 @@ Use pacing, silence, and tonal steadiness to regulate the room. Authority comes 
 4. Rehearse pacing against music transitions.
 
 ## Deliverable
-Submit a Teaching Method Packet with cue audit, rewritten script, and COM B adaptation plan.
+Submit a Teaching Method Packet with cue audit, rewritten script, and COM-B adaptation plan.
 
 ## Further reading
 - [Module 10](../10-instructional/)

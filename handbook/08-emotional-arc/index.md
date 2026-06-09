@@ -20,7 +20,7 @@ Arc design translates theory into lived sequence. Without clear arc logic, class
 | Landing and Meaning | Consolidate and close | 6 to 10 min | Spacious minimal | Quiet precise | Parasympathetic settling |
 
 ## What the evidence actually says
-The arc is a design framework, not a guaranteed emotional outcome. Catharsis helps some participants and destabilizes others. Option rich cueing and clear scaling are non negotiable.
+The arc is a design framework, not a guaranteed emotional outcome. Catharsis helps some participants and destabilizes others. Option-rich cueing and clear scaling are non-negotiable.
 
 ## Practicum
 1. Map your current class to six phases.

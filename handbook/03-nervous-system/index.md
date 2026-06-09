@@ -7,7 +7,7 @@ subtitle: "Teach with autonomic and interoceptive literacy while respecting scop
 > Intensity can support integration or trigger overwhelm. Choice, pacing, and context determine the difference.
 
 ## Why this module exists
-Movement spaces increasingly use therapeutic language without therapeutic infrastructure. This module builds trauma sensitive pedagogy that remains within movement educator scope.
+Movement spaces increasingly use therapeutic language without therapeutic infrastructure. This module builds trauma-informed pedagogy that remains within movement educator scope.
 
 ## Core concepts
 ### ANS basics

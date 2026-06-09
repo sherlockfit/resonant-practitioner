@@ -4,10 +4,10 @@ eyebrow: "Foundations"
 subtitle: "Apply practical biomechanics to high repetition low load movement classes."
 ---
 
-> Emotional potency does not replace mechanical literacy. Sustainable class design depends on anatomy informed choices.
+> Emotional potency does not replace mechanical literacy. Sustainable class design depends on anatomy-informed choices.
 
 ## Why this module exists
-High repetition formats produce cumulative stress patterns rather than single maximal strain. Coaches must read alignment drift, breathing breakdown, and compensatory movement under fatigue.
+High repetition formats produce cumulative stress patterns rather than single maximal strain. Instructors must read alignment drift, breathing breakdown, and compensatory movement under fatigue.
 
 ## Core concepts
 ### Joint regions
