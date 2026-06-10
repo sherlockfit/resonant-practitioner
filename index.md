@@ -30,7 +30,7 @@ This handbook is **a graduate-level training manual + a personal university prog
   <a class="toc-card" href="./handbook/11-methodology-lab/"><span class="num">Module 11</span><span class="title">Methodology Design Lab</span><span class="desc">Build your own system and certification.</span></a>
   <a class="toc-card" href="./handbook/12-public-practice/"><span class="num">Module 12</span><span class="title">Public Practice</span><span class="desc">Becoming a fitness icon: Fonda, LaLanne, Pilates, Iyengar, you.</span></a>
   <a class="toc-card" href="./workbook/"><span class="num">Workbook</span><span class="title">Methodology Design Lab</span><span class="desc">60-page worksheet companion to Module 11.</span></a>
-  <a class="toc-card" href="./handbook/appendix-b-class-builder/"><span class="num">Appendix B</span><span class="title">Class Construction Toolkit</span><span class="desc">One-page plan, default score, ten teaching drills, checklist.</span></a>
+  <a class="toc-card" href="./handbook/appendix-b-class-construction/"><span class="num">Appendix B</span><span class="title">Class Construction Toolkit</span><span class="desc">One-page plan, default score, ten teaching drills, checklist.</span></a>
   <a class="toc-card" href="./handbook/appendix-c-cue-library/"><span class="num">Appendix C</span><span class="title">Master Cue Library</span><span class="desc">200+ cues organized by intent.</span></a>
   <a class="toc-card" href="./summaries/"><span class="num">Library</span><span class="title">Concept Summaries</span><span class="desc">Concise summaries of every key text cited.</span></a>
 </div>

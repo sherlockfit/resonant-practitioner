@@ -41,7 +41,7 @@ Work the modules in order on your first pass — each builds on the last. After 
 ## Appendices
 
 - [Appendix A — Curriculum Audit](./appendix-a-audit/)
-- [Appendix B — Class Construction Toolkit](./appendix-b-class-builder/)
+- [Appendix B — Class Construction Toolkit](./appendix-b-class-construction/)
 - [Appendix C — The Master Cue Library](./appendix-c-cue-library/)
 - [Appendix D — Recommended Reading & Resource Map](./appendix-d-resources/)
 
