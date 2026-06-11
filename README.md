@@ -1,5 +1,17 @@
 # The Resonant Practitioner
 
+## 🎯 Begin today
+
+You can start the program tonight. The full path:
+
+1. **Open [Module 0 — Orientation & Personal Mandate](./handbook/00-orientation/).** Block 90 minutes this week and run the four exercises (Mandate, Lineage Map, 12-Month Outcome Contract, Study Cadence). End of the week you have an Orientation Packet — the foundation for everything else.
+2. **Use the [Class Construction Toolkit](./handbook/appendix-b-class-construction/) the next time you plan a class.** One-page plan, default six-phase score, ten drills, pre-class checklist. Field-ready right now — nothing else has to be done first.
+3. **Then work modules 1 → 12 at your own cadence**, one every one to two weeks.
+
+The rest of this README is just orientation to the repo.
+
+---
+
 ## 📖 Read the handbook
 
 Once GitHub Pages is enabled, the rendered handbook lives at:  
