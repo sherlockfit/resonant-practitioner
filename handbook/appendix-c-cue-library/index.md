@@ -255,4 +255,4 @@ Create a Personal Cue Deck with at least eighty selected cues, population specif
 
 ## Cross links
 - [Module 9 — Teaching Methodology](../09-teaching/)
-- [Appendix B — Class Builder Toolkit](../appendix-b-class-builder/)
+- [Appendix B — Class Construction Toolkit](../appendix-b-class-construction/)
