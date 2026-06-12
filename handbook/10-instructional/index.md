@@ -41,4 +41,4 @@ Create an Instructional Design Portfolio entry with class template, series arc, 
 
 ## Further reading
 - [Module 11](../11-methodology-lab/)
-- [Appendix B](../appendix-b-class-construction/)
+- [Appendix B](../appendix-b-class-builder/)

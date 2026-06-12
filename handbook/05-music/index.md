@@ -47,5 +47,5 @@ Submit a Sonic Design Score with arc map, channel annotations, and contingency s
 
 ## Further reading
 - [Module 8](../08-emotional-arc/)
-- [Appendix B](../appendix-b-class-construction/)
+- [Appendix B](../appendix-b-class-builder/)
 - [Summaries](../../summaries/)
