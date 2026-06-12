@@ -34,4 +34,4 @@ Create a Six Phase Arc Blueprint with timestamps, score choices, cue skeleton, a
 ## Further reading
 - [Module 5](../05-music/)
 - [Module 9](../09-teaching/)
-- [Appendix B](../appendix-b-class-builder/)
+- [Appendix B](../appendix-b-class-construction/)
