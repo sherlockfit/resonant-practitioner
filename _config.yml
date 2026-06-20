@@ -13,6 +13,7 @@ defaults:
     values:
       layout: default
 exclude:
+  - AUDIT.md
   - README.md
   - pdf/build.sh
   - pdf/README.md
