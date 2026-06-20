@@ -1,0 +1,136 @@
+:root {
+  --bg: #FAF7F2;
+  --bg-deep: #F1E9DC;
+  --body-text: #1F1F1F;
+  --primary: #B85C38;
+  --secondary: #4E6151;
+  --muted: #6F6F6F;
+  --rule: #E8DFD0;
+  --warning-bg: #FBEDE5;
+  --max-width: 740px;
+  --sidebar-width: 280px;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+html, body { margin: 0; padding: 0; background: var(--bg); color: var(--body-text); }
+body {
+  font-family: 'Atkinson Hyperlegible', 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 18px;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+.layout {
+  display: grid;
+  grid-template-columns: var(--sidebar-width) 1fr;
+  min-height: 100vh;
+}
+.sidebar {
+  background: var(--bg-deep);
+  border-right: 1px solid var(--rule);
+  padding: 2rem 1.5rem;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow-y: auto;
+}
+.sidebar .site-title {
+  font-size: 1.15rem; font-weight: 700;
+  color: var(--body-text); text-decoration: none;
+  display: block; margin-bottom: 0.25rem;
+}
+.sidebar .site-tagline {
+  font-size: 0.85rem; color: var(--muted);
+  font-style: italic; margin-bottom: 1.5rem;
+}
+.sidebar h2 {
+  font-size: 0.75rem; text-transform: uppercase;
+  letter-spacing: 0.1em; color: var(--secondary);
+  margin: 1.5rem 0 0.5rem; border: none; font-weight: 700;
+}
+.sidebar a {
+  display: block; color: var(--body-text); text-decoration: none;
+  padding: 0.3rem 0; font-size: 0.92rem; line-height: 1.35;
+  border-bottom: 1px solid transparent;
+}
+.sidebar a:hover, .sidebar a:focus { color: var(--primary); border-bottom-color: var(--primary); }
+.nav-toggle {
+  display: none; position: fixed; top: 0.75rem; right: 0.75rem; z-index: 200;
+  background: var(--primary); color: white; border: none;
+  padding: 0.5rem 0.9rem; border-radius: 4px; cursor: pointer; font-size: 0.95rem;
+}
+@media (max-width: 900px) {
+  .layout { grid-template-columns: 1fr; }
+  .sidebar {
+    position: fixed; top: 0; left: 0;
+    width: 85%; max-width: 320px; z-index: 150;
+    transform: translateX(-100%); transition: transform 0.25s ease;
+  }
+  .sidebar.open { transform: translateX(0); }
+  .nav-toggle { display: block; }
+  main.content { padding: 4rem 1.25rem 2rem; }
+}
+main.content { padding: 3rem 2.5rem 2rem; max-width: var(--max-width); margin: 0 auto; width: 100%; }
+.page-header { margin-bottom: 2.5rem; padding-bottom: 1.5rem; border-bottom: 1px solid var(--rule); }
+.page-header .eyebrow {
+  font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.12em;
+  color: var(--secondary); font-weight: 700; margin-bottom: 0.5rem;
+}
+.page-header h1 { margin: 0 0 0.25em; border: none; padding: 0; }
+.page-header .subtitle { font-style: italic; color: var(--muted); font-size: 1.05rem; margin: 0; }
+h1, h2, h3, h4, h5, h6 {
+  font-family: inherit; font-weight: 700; line-height: 1.25;
+  color: var(--body-text); margin-top: 2.25em; margin-bottom: 0.6em;
+}
+h1 { font-size: 2.1rem; border-bottom: 3px solid var(--primary); padding-bottom: 0.3em; margin-top: 0; }
+h2 { font-size: 1.5rem; color: var(--primary); }
+h3 { font-size: 1.2rem; color: var(--secondary); }
+h4 { font-size: 1.05rem; }
+h5 { font-size: 0.95rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); }
+p { margin: 0 0 1.2em; }
+a { color: var(--primary); text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+a:hover, a:focus { color: var(--secondary); }
+strong { font-weight: 700; } em { font-style: italic; }
+blockquote {
+  border-left: 4px solid var(--primary); background: var(--bg-deep);
+  margin: 1.5em 0; padding: 1em 1.25em; color: var(--body-text);
+  border-radius: 0 4px 4px 0;
+}
+blockquote p:last-child { margin-bottom: 0; }
+.callout {
+  background: var(--bg-deep); border-left: 4px solid var(--secondary);
+  padding: 1em 1.25em; margin: 1.5em 0; border-radius: 0 4px 4px 0;
+}
+.warning {
+  background: var(--warning-bg); border-left: 4px solid var(--primary);
+  padding: 1em 1.25em; margin: 1.5em 0; border-radius: 0 4px 4px 0;
+}
+code { font-family: 'JetBrains Mono', 'SF Mono', Menlo, Monaco, Consolas, monospace; background: var(--bg-deep); padding: 0.1em 0.4em; border-radius: 3px; font-size: 0.88em; }
+pre { background: var(--bg-deep); padding: 1em 1.25em; border-radius: 6px; overflow-x: auto; border: 1px solid var(--rule); font-size: 0.82rem; line-height: 1.55; }
+pre code { background: none; padding: 0; font-size: inherit; }
+table { width: 100%; border-collapse: collapse; margin: 1.5em 0; font-size: 0.93em; display: block; overflow-x: auto; }
+th, td { text-align: left; padding: 0.6em 0.8em; border-bottom: 1px solid var(--rule); vertical-align: top; }
+th { background: var(--bg-deep); font-weight: 700; color: var(--secondary); }
+hr { border: none; border-top: 1px solid var(--rule); margin: 2.5em 0; }
+ul, ol { padding-left: 1.5em; margin: 0 0 1.2em; }
+li { margin-bottom: 0.35em; }
+footer.page-footer { margin-top: 4rem; padding-top: 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.88rem; text-align: center; line-height: 1.6; }
+footer.page-footer a { color: var(--secondary); }
+.skip-link { position: absolute; left: -9999px; top: 0; background: var(--primary); color: white; padding: 0.5em 1em; text-decoration: none; z-index: 100; }
+.skip-link:focus { left: 0.5em; top: 0.5em; }
+a:focus, button:focus { outline: 2px solid var(--primary); outline-offset: 2px; }
+.toc-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 1rem; margin: 1.5rem 0 2rem; }
+.toc-card { background: var(--bg-deep); border: 1px solid var(--rule); border-radius: 6px; padding: 1rem 1.2rem; text-decoration: none; color: var(--body-text); transition: border-color 0.15s ease; display: block; }
+.toc-card:hover, .toc-card:focus { border-color: var(--primary); color: var(--body-text); }
+.toc-card .num { display: block; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--secondary); margin-bottom: 0.4rem; }
+.toc-card .title { font-weight: 700; font-size: 1.05rem; margin-bottom: 0.35rem; display: block; }
+.toc-card .desc { font-size: 0.85rem; color: var(--muted); line-height: 1.45; }
+@media print {
+  .sidebar, .nav-toggle, .skip-link { display: none !important; }
+  body { background: white; color: black; font-size: 11pt; line-height: 1.4; }
+  .layout { display: block; }
+  main.content { max-width: 100%; padding: 0; margin: 0; }
+  h1, h2, h3 { page-break-after: avoid; }
+  table, pre, blockquote, .callout, .warning { page-break-inside: avoid; }
+  a { color: black; text-decoration: none; }
+}
